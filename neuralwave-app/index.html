@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="NeuralWave AI - Advanced AI-powered neural network visualization">
+  <title>NeuralWave AI - Next Generation Neural Networks</title>
+  <link rel="stylesheet" href="/src/styles/main.css">
+</head>
+<body>
+  <!-- Loading Screen -->
+  <div id="loading-screen" class="loading-screen" role="status" aria-live="polite">
+    <div class="loading-content">
+      <div class="loading-logo">
+        <svg viewBox="0 0 100 100" aria-hidden="true">
+          <circle class="neural-circle" cx="50" cy="50" r="45" />
+          <circle class="neural-pulse" cx="50" cy="50" r="30" />
+        </svg>
+      </div>
+      <div class="loading-counter" aria-label="Loading progress">
+        <span id="loading-percentage">0</span>%
+      </div>
+      <div class="loading-text">Initializing Neural Network...</div>
+    </div>
+  </div>
+
+  <!-- Custom Cursor -->
+  <div class="custom-cursor" aria-hidden="true">
+    <div class="cursor-dot"></div>
+    <div class="cursor-outline"></div>
+  </div>
+
+  <!-- FPS Monitor (Development) -->
+  <div id="fps-monitor" class="fps-monitor" style="display: none;"></div>
+
+  <!-- Hero Section -->
+  <section id="hero" class="hero-section" role="banner">
+    <!-- Three.js Canvas Container -->
+    <div id="canvas-container" class="canvas-container" aria-hidden="true"></div>
+    
+    <!-- Gradient Background -->
+    <div class="gradient-background" aria-hidden="true"></div>
+    
+    <!-- Hero Content -->
+    <div class="hero-content">
+      <div class="glass-panel">
+        <h1 class="hero-title" aria-label="NeuralWave AI">
+          <span class="title-line">
+            <span class="word">NeuralWave</span>
+            <span class="word">AI</span>
+          </span>
+          <span class="title-line">
+            <span class="word">Next</span>
+            <span class="word">Generation</span>
+          </span>
+          <span class="title-line">
+            <span class="word">Intelligence</span>
+          </span>
+        </h1>
+        
+        <p class="hero-subtitle">
+          Harness the power of advanced neural networks to transform your data into actionable insights
+        </p>
+        
+        <div class="hero-cta">
+          <button class="cta-button" aria-label="Get started with NeuralWave AI">
+            <span class="button-text">Get Started</span>
+            <span class="button-glow" aria-hidden="true"></span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Scroll Indicator -->
+  <div class="scroll-indicator" aria-label="Scroll down for more content">
+    <div class="scroll-line"></div>
+    <div class="scroll-text">Scroll</div>
+  </div>
+
+  <script type="module" src="/src/js/main.js"></script>
+</body>
+</html>
