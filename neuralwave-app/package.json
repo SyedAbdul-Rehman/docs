@@ -1,0 +1,23 @@
+{
+  "name": "neuralwave-app",
+  "version": "1.0.0",
+  "description": "NeuralWave AI - Advanced AI-powered neural network visualization",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "keywords": ["three.js", "gsap", "neural-network", "3d-visualization"],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "vite": "^5.0.0"
+  },
+  "dependencies": {
+    "gsap": "^3.12.5",
+    "lenis": "^1.0.42",
+    "stats.js": "^0.17.0",
+    "three": "^0.160.0"
+  }
+}
